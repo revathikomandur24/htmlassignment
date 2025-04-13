@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.left-column, .right-column {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.left-column {
+    max-width: 30%;
+    background-color: #2b2929;
+    color:antiquewhite
+}
+.right-column {
+    max-width: 70%;
+    background-color: #f3e3e3;
+}
+h1, h2 {
+    margin-top: 0;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    margin-bottom: 10px;
+}
